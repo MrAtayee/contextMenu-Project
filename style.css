@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(255, 93, 48);
+}
+
+.container{
+    visibility: hidden;
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.container .menu{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.menu .item{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu .item:hover{
+    background-color: #f2f2f2;
+}
+
+.menu .item svg{
+    padding-right: 10px;
+}
+
+.container .setting{
+    border-top: 1px solid #cccc;
+   margin: 10px 0;
+   padding-top: 10px;
+}
+
+.menu .share-menu{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 10PX;
+    position: absolute;
+    left: 260px;
+    visibility: hidden;
+}
+.menu .share:hover .share-menu{
+    visibility: visible;
+}
+
+.menu .share{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
