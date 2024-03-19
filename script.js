@@ -11,7 +11,7 @@ document.addEventListener('contextmenu', (e) => {
     let cmWidght = contextmenu.offsetWidth;
     let cmheight = contextmenu.offsetHeight;
 
-    x = x > windWidth - cmWidght ? windHeight - cmWidght : x;
+    x = x > windWidth - cmWidght ? windWidth - cmWidght : x;
     y = y > windHeight - cmheight ? windHeight - cmheight : y;
     
     if (x > windWidth - cmWidght - submenu.offsetWidth) {
